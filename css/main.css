@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #000;
+  --dark-color: #b200326e;
 }
 
 body {
@@ -42,13 +42,14 @@ body {
 .titulo {
   margin-bottom: 180px;
   font-family: "Arial Narrow", Arial, sans-serif;
-  color: yellow;
+  color: #f7f71b;
   position: absolute;
   font-weight: bold;
   letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  font-family:cursive;
 }
 @keyframes fadeIn {
   from {
@@ -60,6 +61,8 @@ body {
 }
 
 .night {
+  display: flex;
+  justify-content: space-between;
   z-index: -1;
   position: absolute;
   left: 50%;
@@ -100,6 +103,12 @@ body {
       transparent 22px
     ),
     linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
+}
+.derecha {
+  width: 50%;
+}
+.izquierda {
+  width: 50%;
 }
 
 .flowers {
@@ -1613,6 +1622,7 @@ body {
 body, h1, p {
   margin: 0;
   padding: 0;
+
 }
 
 /* Estilos generales */
