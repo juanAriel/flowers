@@ -114,15 +114,13 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
-  /*margin-bottom: 100px;
-  */
 }
 
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
 .flowers {
       font-size: 14px;
-      margin-bottom: 35%;
+      margin-bottom: 0%;
       letter-spacing: 3px;
       transform: scale(1.0);
 }
